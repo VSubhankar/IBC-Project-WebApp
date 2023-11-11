@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Viewer</title>
+    <link href="./styles.css" rel = "stylesheet">
+</head>
+<body>
+    <div class="navbar">
+            <div class="brand">
+                <img src="./assets/navbar_logo.png" width="50px" height="50px" alt="Logo" class="logo">
+                <a class="brandname">DATA RELAY-X</a>
+            </div>
+        <div class="nav-links">
+            <button class="nav1" href="#">HOME</button>
+            <button class="nav2" href="#">SIGN-UP</button>
+            <button class="nav3" href="#">LOGIN</button>
+        </div>
+    </div>
+
+    <div id="filelist">
+        <button onclick="fetchandupdate('10:45:25_31/11/2023')" id="10:45:25_31/11/2023">10:45:25_31/11/2023</button>
+    </div>
+    <div class="data">
+        <iframe id= 'resData' src="./dataImg2.jpg" width="640" height="480" allow="autoplay"></iframe>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
